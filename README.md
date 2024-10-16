@@ -7,7 +7,9 @@ A Flutter app that fetches news from the NewsAPI to deliver up-to-date informati
 
 ## Features
 **News Categories:** Access news on sports, health, entertainment, science, technology, and more.
+
 **Real-Time Updates:** Stay informed with the latest news articles.
+
 **User-Friendly Interface**: Simple and responsive design optimized for both mobile and desktop platforms.
 
 ## Usage
@@ -26,5 +28,7 @@ Run the app on your preferred device or emulator using flutter run.
 
 ## Technologies Used
 **Flutter:** Google's UI toolkit for building natively compiled applications for mobile, web, and desktop.
+
 **NewsAPI:** Provides the latest news articles across various categories.
+
 **Dio Package:** For making HTTP requests to fetch news data.
