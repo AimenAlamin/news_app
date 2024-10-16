@@ -1,16 +1,30 @@
-# news_app
 
-A new Flutter project.
+https://github.com/user-attachments/assets/fe579600-379c-49f3-b698-26a4705311a4
 
-## Getting Started
+# News App
 
-This project is a starting point for a Flutter application.
+A Flutter app that fetches news from the NewsAPI to deliver up-to-date information on various topics.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
+**News Categories:** Access news on sports, health, entertainment, science, technology, and more.
+**Real-Time Updates:** Stay informed with the latest news articles.
+**User-Friendly Interface**: Simple and responsive design optimized for both mobile and desktop platforms.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Usage
+To run the News App:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Clone the repository to your local machine.
+Open the project in your preferred Flutter development environment.
+Install dependencies using flutter pub get.
+Obtain an API key from NewsAPI.
+Add the API key:
+Create a .env file in the root directory with:
+makefile
+Copy code
+NEWS_API_KEY=your_api_key_here
+Run the app on your preferred device or emulator using flutter run.
+
+## Technologies Used
+**Flutter:** Google's UI toolkit for building natively compiled applications for mobile, web, and desktop.
+**NewsAPI:** Provides the latest news articles across various categories.
+**Dio Package:** For making HTTP requests to fetch news data.
